@@ -25,7 +25,7 @@ public class BeerController {
     }
 
     @PutMapping("/{beerId}")
-    public ResponseEntity updateBeerById(@PathVariable("beerid") UUID beerId, @RequestBody BeerDTO beerDTO){
+    public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerId, @RequestBody BeerDTO beerDTO){
 
         // todo impl
         return new ResponseEntity(HttpStatus.NO_CONTENT);
