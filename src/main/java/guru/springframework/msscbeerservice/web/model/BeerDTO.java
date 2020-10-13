@@ -21,7 +21,7 @@ public class BeerDTO {
     private OffsetDateTime lastModifiedDate;
     private String beerName;
     private BeerStyleEnum beerStyle;
-    private Long upc;
+    private String upc;
     private BigDecimal price;
     private Integer quantityOnHand;
 }
